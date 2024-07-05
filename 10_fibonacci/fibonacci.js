@@ -6,6 +6,7 @@ const fibonacci = function(nthFibococi) {
         return 0;
     }
 
+    //  1, 1, ...
     let num1 = 1, num2 = 1, num3;
     for (let i = 2; i < nthFibococi; i++) {
         num3 = num1 + num2;
